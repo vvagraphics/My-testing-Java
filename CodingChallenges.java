@@ -71,23 +71,35 @@ public class CodingChallenges {
         // }
 
         // binary search
-        int[] input = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-        int target = 6;
-        int low = 0;
-        int high = input.length - 1;
-        int result = -1; // Assume the target is not found initially
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
-            if (input[mid] == target) {
-                result = mid;
-                break;
-            } else if (input[mid] < target) {
-                low = mid + 1;
-            } else {
-                high = mid - 1;
-            }
-        }
-        System.out.println(result);
+        // int[] input = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        // int target = 6;
+        // int low = 0;
+        // int high = input.length - 1;
+        // int result = -1;
+        // while (low <= high) {
+        // int mid = low + (high - low) / 2;
+        // if (input[mid] == target) {
+        // result = mid;
+        // break;
+        // } else if (input[mid] < target) {
+        // low = mid + 1;
+        // } else {
+        // high = mid - 1;
+        // }
+        // }
+        // System.out.println(result);
+        // FizzBuzz 15
+        // for (int i = 1; i <= 15; i++) {
+        // if (i % 3 == 0 && i % 5 == 0) {
+        // System.out.println("fizzbuzz");
+        // } else if (i % 3 == 0) {
+        // System.out.println("fizz");
+        // } else if (i % 5 == 0) {
+        // System.out.println("buzz");
+        // } else {
+        // System.out.println(i);
+        // }
+        // }
 
     }
 
