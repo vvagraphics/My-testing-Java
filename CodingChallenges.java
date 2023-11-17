@@ -42,14 +42,53 @@ public class CodingChallenges {
         // }
         // System.out.println(Arrays.toString(reversedString));
         // is sorted
-        int[] sortedArray = { 1, 2, 3, 4, 5 };
-        for (int i = 1; i < sortedArray.length; i++) {
-            if (sortedArray[i - 1] > sortedArray[i]) {
-                System.out.println("false");
+        // int[] sortedArray = { 1, 2, 3, 4, 5 };
+        // int[] array = { 1, 2, 3 };
+        // int max = array[0];
+        // int max2nd = array[0];
+        // for (int i = 0; i < array.length; i++) {
+        // if (max < array[i]) {
+        // max2nd = max;
+        // max = array[i];
+        // } else if (max2nd < array[i]) {
+        // max2nd = array[i];
+        // }
+        // }
+        // System.out.println(max2nd);
+        // prime
+        // int num = 11;
+        // boolean isPrime = true;
+        // for (int i = 2; i <= Math.sqrt(num); i++) {
+        // if (num % i == 0) {
+        // isPrime = false;
+        // break;
+        // }
+        // }
+        // if (isPrime) {
+        // System.out.println(num + " is a prime number.");
+        // } else {
+        // System.out.println(num + " is not a prime number.");
+        // }
 
+        // binary search
+        int[] input = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        int target = 6;
+        int low = 0;
+        int high = input.length - 1;
+        int result = -1; // Assume the target is not found initially
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (input[mid] == target) {
+                result = mid;
+                break;
+            } else if (input[mid] < target) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
             }
-            System.out.println("true");
         }
+        System.out.println(result);
+
     }
 
 }
