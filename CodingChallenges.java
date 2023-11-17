@@ -101,6 +101,18 @@ public class CodingChallenges {
         // }
         // }
 
+        // Hardcoded Login
+        // String Username = "user123";
+        // String password = "pass123";
+        // String enteredUsername = "user123";
+        // String enteredPassword = "pass123";
+        // if (enteredUsername.equals(Username) &&
+        // enteredPassword.equals(enteredPassword)) {
+        // System.out.println("Login Successful");
+        // } else {
+        // System.out.println("Login Failed");
+        // }
+
     }
 
 }
