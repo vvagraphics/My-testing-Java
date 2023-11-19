@@ -278,6 +278,7 @@ public class CodingChallenges {
         // String pigLatin = word.substring(1) + word.charAt(0) + "ay";
         // System.out.println(pigLatin);
 
+        // SELECT age, COUNT(*) AS age_count FROM person GROUP BY age ORDER BY age ASC;
     }
 
 }
