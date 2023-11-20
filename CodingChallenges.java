@@ -279,6 +279,13 @@ public class CodingChallenges {
         // System.out.println(pigLatin);
 
         // SELECT age, COUNT(*) AS age_count FROM person GROUP BY age ORDER BY age ASC;
+
+        int[] numbers = { 10, 20, 30, 40, 50 };
+
+        for (int x : numbers) {
+            System.out.print(x);
+            System.out.print(",");
+        }
     }
 
 }
