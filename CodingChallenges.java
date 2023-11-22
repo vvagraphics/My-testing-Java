@@ -1,5 +1,7 @@
 // import java.util.Scanner;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 
 public class CodingChallenges {
@@ -280,12 +282,36 @@ public class CodingChallenges {
 
         // SELECT age, COUNT(*) AS age_count FROM person GROUP BY age ORDER BY age ASC;
 
-        int[] numbers = { 10, 20, 30, 40, 50 };
+        // int[] numbers = { 10, 20, 30, 40, 50 };
 
-        for (int x : numbers) {
-            System.out.print(x);
-            System.out.print(",");
-        }
+        // for (int x : numbers) {
+        // System.out.print(x);
+        // System.out.print(",");
+        // }
+        // volatile Singleton instance;
+        // if (instance == null) {
+        // synchronized (Singleton.class) {
+        // if (instance == null) {
+        // instance = new Singleton();
+        // }
+        // }
+        // }
+        // return instance;
+
+        // public static String generateMD5Hash(String data) {
+        // try {
+        // MessageDigest md = MessageDigest.getInstance("MD5");
+        // byte[] bytes = md.digest(data.getBytes());
+        // StringBuilder sb = new StringBuilder();
+        // for (int i = 0; i < bytes.length; i++) {
+        // sb.append(String.format("%02x", bytes[i]));
+        // }
+        // return sb.toString();
+        // } catch (NoSuchAlgorithmException e) {
+        // e.printStackTrace();
+        // return null;
+        // }
+        // }
     }
 
 }
