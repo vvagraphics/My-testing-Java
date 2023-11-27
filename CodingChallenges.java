@@ -3,6 +3,7 @@
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
+import java.util.Set;
 
 public class CodingChallenges {
     public static void main(String[] args) {
@@ -312,6 +313,63 @@ public class CodingChallenges {
         // return null;
         // }
         // }
+        // VPS HOSTINGER settup example
+        // # Connect to the VPS using SSH
+        // ssh username@vps_ip_address
+
+        // # Change to the root user
+        // sudo su
+
+        // # Update the package repository
+        // sudo apt update
+
+        // # Upgrade all installed packages
+        // sudo apt upgrade
+
+        // # Install Java Development Kit (JDK)
+        // sudo apt install openjdk-11-jre-headless
+
+        // # Verify Java installation
+        // java -version
+
+        // # Install Node.js
+        // curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
+        // sudo apt install -y nodejs
+
+        // # Install Maven (build tool)
+        // sudo apt install maven
+
+        // # Install web server (Tomcat)
+        // sudo apt install tomcat9
+
+        // # Set up firewall to allow incoming traffic on ports 8080 (Spring Boot) and
+        // 3000 (React/Angular)
+        // sudo ufw allow 8080
+        // sudo ufw allow 3000
+
+        // # Start the Tomcat web server
+        // sudo systemctl start tomcat
+
+        // # Enable Tomcat to start automatically on boot
+        // sudo systemctl enable tomcat
+
+        // # Create a directory for your application
+        // mkdir /opt/myapp
+
+        // # Transfer your application files to the VPS
+        // scp -r application_files username@vps_ip_address:/opt/myapp
+
+        // # Change directory to the application directory
+        // cd /opt/myapp
+
+        // # Build the Spring Boot application
+        // mvn clean package
+
+        // # Deploy the Spring Boot application
+        // java -jar target/myapp.jar
+
+        // # Start the React or Angular application
+        // npm start (for React) or ng serve (for Angular)
     }
 
 }
