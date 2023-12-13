@@ -371,5 +371,20 @@ public class CodingChallenges {
         // # Start the React or Angular application
         // npm start (for React) or ng serve (for Angular)
     }
+    // Javascript
+    // Challenge:
+
+    // Fibonacci sequence:
+
+    // JavaScript
+    // function
+
+    // fibonacci(n) {
+    // if (n <= 1) return n;
+    // return fibonacci(n - 1) + fibonacci(n - 2);
+    // }
+
+    // // Example usage
+    // const result = fibonacci(10); // result will be 55
 
 }
