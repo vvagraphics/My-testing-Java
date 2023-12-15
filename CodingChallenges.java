@@ -387,4 +387,10 @@ public class CodingChallenges {
     // // Example usage
     // const result = fibonacci(10); // result will be 55
 
+    // function reverseString(str) {
+    // return str.split("").reverse().join("");
+    // }
+
+    // console.log(reverseString("Hello world!")); // !dlrow olleH
+
 }
